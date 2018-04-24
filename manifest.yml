@@ -1,0 +1,10 @@
+---
+applications:
+  - name: cfprom
+    memory: 512M
+    instances: 1
+    buildpack: https://github.com/cloudfoundry/go-buildpack.git
+    env:
+      CF_API: API
+      CF_USERNAME: USERNAME
+      CF_PASSWORD: PWD
